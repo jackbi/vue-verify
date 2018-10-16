@@ -8,13 +8,14 @@
 # 安装发送验证码插件
 ```$xslt
 npm install vue-verify-list --save
+```
 
 # 引用插件
 ```$xslt
 import VueVerifyList from 'vue-verify-list'
 
 Vue.use(VueVerifyList)
-
+```
 # 在组件中使用
 ```$xslt
 <vue-verify :time="time" :isSend="isSend" @my-event="goSend"/>
@@ -41,6 +42,7 @@ export default {
     }
   }
 }
+```
 
 ###vue-verify-list/初始化参数
 <table  border="0" align="left">
@@ -95,6 +97,7 @@ export default {
     </tr>
 	</tbody>
 </table>
+```
 
 ###vue-verify-list/方法
 <table  border="0" align="left">
@@ -110,5 +113,3 @@ export default {
 	</tbody>
 </table>
 ```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
