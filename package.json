@@ -14,17 +14,14 @@
     "lint": "eslint --ext .js,.vue src test/unit test/e2e/specs",
     "build": "node build/build.js"
   },
-  // 指定代码所在的仓库地址
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jackbi/vue-verify.git"
   },
-  // 指定打包之后，包中存在的文件夹
   "files": [
     "dist",
     "src"
   ],
-  // 指定关键字
   "keywords": [
     "vue",
     "flag",
