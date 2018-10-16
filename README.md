@@ -1,12 +1,11 @@
 # vue-verify-list
 
-> A Vue.js project
+> 发送验证码按钮
 
 ## Build Setup
 
 ``` bash
 # 安装发送验证码插件
-```$xslt
 npm install vue-verify-list --save
 ```
 
