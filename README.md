@@ -57,13 +57,13 @@ export default {
 			<td >time</td>
 			<td >Number</td>
 			<td >-</td>
-			<td >时间设为0</td>
+			<td >设为0</td>
 		</tr>
 		<tr>
       <td >isSend</td>
       <td >Boolean</td>
       <td >-</td>
-      <td >时间设为false</td>
+      <td >设为false</td>
     </tr>
     <tr>
       <td >bgcolor</td>
